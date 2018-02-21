@@ -1,3 +1,5 @@
-remote_theme: andi-apeunit/dev-aepps
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-#markdown: kramdown
+remote_theme: andi-apeunit/dev-aepps
