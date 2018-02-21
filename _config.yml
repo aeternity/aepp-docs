@@ -1,2 +1,7 @@
 remote_theme: andi-apeunit/dev-aepps
+
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
