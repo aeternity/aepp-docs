@@ -42,11 +42,11 @@ pre {
 a {
 	text-decoration: none;
 	color: inherit;
+}
 
-	&:hover {
-		color: var(--link-color);
-		text-decoration: none;
-	}
+a:hover {
+	color: var(--link-color);
+	text-decoration: none;
 }
 
 .wrapper {
@@ -67,40 +67,41 @@ a {
 	height: 100%;
 	overflow: hidden;
 	color: var(--sidebar-color);
+}
 
-	.sidebar-main {
-		height: 100%;
-		background: var(--navigation-background);
-		padding: var(--base-height);
-	}
+.sidebar .sidebar-main {
+	height: 100%;
+	background: var(--navigation-background);
+	padding: var(--base-height);
+}
 
-	.sidebar-mobile {
-		display: none;
-		height: var(--header-height);
-		padding: var(--base-height);
-		text-align: right;
+.sidebar .sidebar-mobile {
+	display: none;
+	height: var(--header-height);
+	padding: var(--base-height);
+	text-align: right;
+}
 
-		.close-icon, .menu-icon {
-			width: 18px;
-			cursor: pointer;
-			height: auto;
-			display: none;
-		}
-	}
+.sidebar .sidebar-mobile .close-icon,
+.sidebar .sidebar-mobile .menu-icon {
+	width: 18px;
+	cursor: pointer;
+	height: auto;
+	display: none;
 }
 
 .search {
 	height: var(--header-height);
 	border-bottom: var(--sidebar-border);
 	padding: 0 var(--base-height);
+}
 
-	.search-input {
-		border: none;
-		font-size: 0.9em;
-		font-weight: 300;
-		width: 100%;
-		height: 100%;
-	}
+.search .search-input {
+	border: none;
+	font-size: 0.9em;
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
 }
 
 .navigation {
@@ -109,22 +110,22 @@ a {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
 
-	li {
-		margin: 0;
-		padding: 10px 15px;
-	}
+.navigation li {
+	margin: 0;
+	padding: 10px 15px;
+}
 
-	a {
-		display: block;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+.navigation a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
-		&.active {
-			color: var(--navigation-link-color);
-		}
-	}
+.navigation a.active {
+	color: var(--navigation-link-color);
 }
 
 .content {
@@ -159,24 +160,24 @@ a {
 		max-width: 100%;
 		border-right: none;
 		height: var(--header-height);
+	}
 
-		.sidebar-mobile {
-			display: block;
+	.sidebar .sidebar-mobile {
+		display: block;
+	}
 
-			.menu-icon {
-				display: inline;
-			}
-		}
+	.sidebar .sidebar-mobile .menu-icon {
+		display: inline;
+	}
 
-		&.opened {
-			overflow: visible;
-			height: auto;
-			border-bottom: var(--sidebar-border);
+	.sidebar.opened {
+		overflow: visible;
+		height: auto;
+		border-bottom: var(--sidebar-border);
+	}
 
-			.sidebar-mobile {
-				background: var(--navigation-background);
-			}
-		}
+	.sidebar.opened .sidebar-mobile {
+		background: var(--navigation-background);
 	}
 
 	.content {
