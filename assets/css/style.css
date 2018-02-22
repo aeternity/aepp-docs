@@ -1,32 +1,40 @@
-@import 'variables';
-@import 'milligram';
-@import 'rouge';
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+@import url("milligram.css");
+@import url("rouge.css");
 
 html, body {
 	margin: 0;
 	height: 100%;
 	max-height: 100%;
 	overflow: hidden;
-	min-width: $min-width;
+	min-width: 360px;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-pre {
-	margin-bottom: ($base-height * 2) !important;
+code, pre, table {
+	font-family: "Roboto Mono", monospace;
 }
+
+/*
+pre {
+	margin-bottom: 2em !important;
+}
+*/
 
 a {
 	text-decoration: none;
 	color: inherit;
-
-	&:hover {
-		color: $link-color;
-		text-decoration: none;
-	}
 }
+
+a:hover {
+	color: #f7296e;
+	text-decoration: none;
+ }
 
 .wrapper {
 	height: 100%;
@@ -40,46 +48,46 @@ a {
 .sidebar {
 	display: block;
 	width: 20%;
-	max-width: $sidebar-width;
+	max-width: 350px;
 	padding: 0;
-	border-right: $sidebar-border;
+	border-right: 1px solid rgba(0,0,0,0.07);
 	height: 100%;
 	overflow: hidden;
-	color: $sidebar-color;
-
-	.sidebar-main {
-		height: 100%;
-		background: $navigation-background;
-		padding: $base-height;
-	}
-
-	.sidebar-mobile {
-		display: none;
-		height: $header-height;
-		padding: $base-height;
-		text-align: right;
-
-		.close-icon, .menu-icon {
-			width: 18px;
-			cursor: pointer;
-			height: auto;
-			display: none;
-		}
-	}
+	color: #f5f5f5;
 }
 
-.search {
-	height: $header-height;
-	border-bottom: $sidebar-border;
-	padding: 0 $base-height;
+.sidebar .sidebar-main {
+	height: 100%;
+	background: #fafafa;
+	padding: 1em;
+}
 
-	.search-input {
-		border: none;
-		font-size: 0.9em;
-		font-weight: 300;
-		width: 100%;
-		height: 100%;
-	}
+.sidebar .sidebar-mobile {
+	display: none;
+	height: 50px;
+	padding: 1em;
+	text-align: right;
+ }
+
+.sidebar .sidebar-mobile .close-icon, .menu-icon {
+	width: 18px;
+	cursor: pointer;
+	height: auto;
+	display: none;
+
+}
+.search {
+	height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,0.07);
+	padding: 0 1em;
+      }
+
+.search .search-input {
+	border: none;
+	font-size: 0.9em;
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
 }
 
 .navigation {
@@ -88,47 +96,47 @@ a {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
 
-	li {
-		margin: 0;
-		padding: 10px 15px;
-	}
+.navigation li {
+	margin: 0;
+	padding: 10px 15px;
+}
 
-	a {
-		display: block;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+.navigation a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+      }
 
-		&.active {
-			color: $navigation-link-color;
-		}
-	}
+.navigation a.active {
+	color: #f7296e;
 }
 
 .content {
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 	min-height: 100%;
 	height: 100%;
-  width: 100%;
+	width: 100%;
 	overflow-y: auto;
-	color: $content-color;
+	color: #333333;
 	line-height: 1.7;
 	word-wrap: break-word;
 }
 
 .inner {
-  width: 100%;
-	max-width: $content-width;
-	padding: $base-height ($base-height * 2) ($base-height * 3) $base-height;
+	width: 100%;
+	max-width: 800px;
+	padding: 1em 2em 3em 1em;
 }
 
 .section {
-	margin-bottom: $base-height;
+	margin-bottom: 1em;
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: 745px) {
 	.wrapper {
 		flex-direction: column;
 	}
@@ -137,35 +145,35 @@ a {
 		width: 100%;
 		max-width: 100%;
 		border-right: none;
-		height: $header-height;
+		height: 50px;
+	}
 
-		.sidebar-mobile {
-			display: block;
+	.sidebar .sidebar-mobile {
+		display: block;
+	}
 
-			.menu-icon {
-				display: inline;
-			}
-		}
+	.sidebar .sidebar-mobile .menu-icon {
+		display: inline;
+	}
 
-		&.opened {
-			overflow: visible;
-			height: auto;
-			border-bottom: $sidebar-border;
+	.sidebar .opened {
+		overflow: visible;
+		height: auto;
+		border-bottom: $sidebar-border;
+	}
 
-			.sidebar-mobile {
-				background: $navigation-background;
-			}
-		}
+	.sidebar .opened .sidebar-mobile {
+		background: $navigation-background;
 	}
 
 	.content {
 		width: 100%;
 		margin-top: 0;
-		height: calc(100% - #{$header-height});
-		min-height: calc(100% - #{$header-height});
+		height: calc(100% - 50px);
+		min-height: calc(100% - 50px);
 	}
 
 	.inner {
-		padding: $base-height;
+		padding: 1em;
 	}
 }

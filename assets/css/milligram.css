@@ -6,9 +6,6 @@
  * Licensed under the MIT license
  */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-
 *,
 *:after,
 *:before {
@@ -601,9 +598,3 @@ img {
 .float-right {
   float: right;
 }
-
-code, pre, table {
-  font-family: "Roboto Mono", monospace;
-}
-
-/*# sourceMappingURL=milligram.css.map */
