@@ -7,20 +7,21 @@
 @import url("rouge.css");
 
 :root {
-	--content-color: #333;
-	--link-color: #f7296e;
+	--bg-color: #fafafa;
+	--fg-color: #000000;
+	--hl-color: #f7296e;
 
-	--sidebar-border: 1px solid rgba(0,0,0,0.07);
-	--sidebar-color: #000000;
-
-	--navigation-background: #fafafa;
-	--navigation-link-color: #f7296e;
+	--border: 1px solid rgba(0,0,0,0.07);
 
 	--base-height: 1em;
 	--content-width: 800px;
 	--sidebar-width: 300px;
 	--min-width: 360px;
 	--header-height: 50px;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 html, body {
@@ -31,12 +32,9 @@ html, body {
 	min-width: var(--min-width);
 }
 
-* {
-	box-sizing: border-box;
-}
-
-pre {
-	margin-bottom: calc(var(--base-height) * 2) !important;
+body {
+	color: var(--color);
+	font-family:"Roboto", sans-serif;
 }
 
 a {
@@ -45,9 +43,19 @@ a {
 }
 
 a:hover {
-	color: var(--link-color);
+	color: var(--hl-color);
 	text-decoration: none;
 }
+
+code, pre, table {
+	font-family: "Roboto Mono", monospace;
+}
+
+/*
+pre {
+	margin-bottom: calc(var(--base-height) * 2) !important;
+}
+*/
 
 .wrapper {
 	height: 100%;
@@ -63,15 +71,15 @@ a:hover {
 	width: 20%;
 	max-width: var(--sidebar-width);
 	padding: 0;
-	border-right: var(--sidebar-border);
+	border-right: var(--border);
 	height: 100%;
 	overflow: hidden;
-	color: var(--sidebar-color);
+	color: var(--fg-color);
 }
 
 .sidebar .sidebar-main {
 	height: 100%;
-	background: var(--navigation-background);
+	background: var(--bg-color);
 	padding: var(--base-height);
 }
 
@@ -92,7 +100,7 @@ a:hover {
 
 .search {
 	height: var(--header-height);
-	border-bottom: var(--sidebar-border);
+	border-bottom: var(--border);
 	padding: 0 var(--base-height);
 }
 
@@ -125,7 +133,7 @@ a:hover {
 }
 
 .navigation a.active {
-	color: var(--navigation-link-color);
+	color: var(--hl-color);
 }
 
 .content {
@@ -135,7 +143,7 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	overflow-y: auto;
-	color: var(--content-color);
+	color: var(--fg-color);
 	line-height: 1.7;
 	word-wrap: break-word;
 }
@@ -173,11 +181,11 @@ a:hover {
 	.sidebar.opened {
 		overflow: visible;
 		height: auto;
-		border-bottom: var(--sidebar-border);
+		border-bottom: var(--border);
 	}
 
 	.sidebar.opened .sidebar-mobile {
-		background: var(--navigation-background);
+		background: var(--bg-color);
 	}
 
 	.content {
