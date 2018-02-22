@@ -5,8 +5,8 @@ For README.md files to be automatically indexed, please add the following at the
 ```
 ---
 layout: page
-title: [SOME_TITLE]
-navigation: [NUMBER_OF_FILES_+_1]
+title: [TITLE FOR SIDEBAR]
+navigation: [NUMBER OF FILES + 1]
 ---
 
 ```
