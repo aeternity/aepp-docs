@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
+@import url("normalize.css");
 @import url("milligram.css");
 @import url("rouge.css");
 
