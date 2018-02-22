@@ -19,7 +19,7 @@ html {
 
 body {
   color: #606c76;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: .01em;
@@ -598,3 +598,5 @@ img {
 .float-right {
   float: right;
 }
+
+/*# sourceMappingURL=milligram.css.map */

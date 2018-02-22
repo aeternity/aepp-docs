@@ -2,8 +2,8 @@
 @import url("//fonts.googleapis.com/css?family=Roboto+Mono");
 
 @import url("//cdn.rawgit.com/necolas/normalize.css/master/normalize.css");
-@import url("//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css");
 
+@import url("milligram.css");
 @import url("rouge.css");
 
 :root {
