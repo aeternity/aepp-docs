@@ -14,10 +14,12 @@
 	--border: 1px solid rgba(0,0,0,0.07);
 
 	--base-height: 1em;
+	--header-height: 50px;
+
+	--min-width: 360px;
+
 	--content-width: 800px;
 	--sidebar-width: 300px;
-	--min-width: 360px;
-	--header-height: 50px;
 }
 
 * {
@@ -25,11 +27,11 @@
 }
 
 html, body {
-	margin: 0;
 	height: 100%;
+	margin: 0;
 	max-height: 100%;
-	overflow: hidden;
 	min-width: var(--min-width);
+	overflow: hidden;
 }
 
 body {
@@ -38,8 +40,8 @@ body {
 }
 
 a {
-	text-decoration: none;
 	color: inherit;
+	text-decoration: none;
 }
 
 a:hover {
@@ -58,28 +60,28 @@ pre {
 */
 
 .wrapper {
+	display: flex;
 	height: 100%;
-	width: 100%;
 	max-height: 100%;
 	min-height: 100%;
-	display: flex;
 	overflow: hidden;
+	width: 100%;
 }
 
 .sidebar {
-	display: block;
-	width: 20%;
-	max-width: var(--sidebar-width);
-	padding: 0;
 	border-right: var(--border);
-	height: 100%;
-	overflow: hidden;
 	color: var(--fg-color);
+	display: block;
+	height: 100%;
+	max-width: var(--sidebar-width);
+	overflow: hidden;
+	padding: 0;
+	width: 20%;
 }
 
 .sidebar .sidebar-main {
-	height: 100%;
 	background: var(--bg-color);
+	height: 100%;
 	padding: var(--base-height);
 }
 
@@ -92,15 +94,15 @@ pre {
 
 .sidebar .sidebar-mobile .close-icon,
 .sidebar .sidebar-mobile .menu-icon {
-	width: 18px;
 	cursor: pointer;
-	height: auto;
 	display: none;
+	height: auto;
+	width: 18px;
 }
 
 .search {
-	height: var(--header-height);
 	border-bottom: var(--border);
+	height: var(--header-height);
 	padding: 0 var(--base-height);
 }
 
@@ -108,16 +110,16 @@ pre {
 	border: none;
 	font-size: 0.9em;
 	font-weight: 300;
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 .navigation {
 	display: block;
-	width: 100%;
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	width: 100%;
 }
 
 .navigation li {
@@ -127,9 +129,9 @@ pre {
 
 .navigation a {
 	display: block;
-	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .navigation a.active {
@@ -137,21 +139,21 @@ pre {
 }
 
 .content {
-	display: flex;
-	justify-content: center;
-	min-height: 100%;
-	height: 100%;
-	width: 100%;
-	overflow-y: auto;
 	color: var(--fg-color);
+	display: flex;
+	height: 100%;
+	justify-content: center;
 	line-height: 1.7;
+	min-height: 100%;
+	overflow-y: auto;
+	width: 100%;
 	word-wrap: break-word;
 }
 
 .inner {
-	width: 100%;
 	max-width: var(--content-width);
 	padding: var(--base-height) calc(var(--base-height) * 2) calc(var(--base-height) * 3) var(--base-height);
+	width: 100%;
 }
 
 .section {
@@ -164,10 +166,10 @@ pre {
 	}
 
 	.sidebar {
-		width: 100%;
-		max-width: 100%;
 		border-right: none;
 		height: var(--header-height);
+		max-width: 100%;
+		width: 100%;
 	}
 
 	.sidebar .sidebar-mobile {
@@ -179,9 +181,9 @@ pre {
 	}
 
 	.sidebar.opened {
-		overflow: visible;
-		height: auto;
 		border-bottom: var(--border);
+		height: auto;
+		overflow: visible;
 	}
 
 	.sidebar.opened .sidebar-mobile {
@@ -189,10 +191,10 @@ pre {
 	}
 
 	.content {
-		width: 100%;
-		margin-top: 0;
 		height: calc(100% - var(--header-height));
+		margin-top: 0;
 		min-height: calc(100% - var(--header-height));
+		width: 100%;
 	}
 
 	.inner {
