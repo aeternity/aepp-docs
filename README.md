@@ -8,7 +8,6 @@ layout: page
 title: [TITLE FOR SIDEBAR]
 navigation: [NUMBER OF FILES + 1]
 ---
-
 ```
 
 The README.md files will be rendered at [dev.aepps.com](https://dev.aepps.com)
