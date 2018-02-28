@@ -1,3 +1,9 @@
+---
+layout: page
+title: Introduction
+navigation: 1
+---
+
 # Quick guide to getting started developing æpps for the æternity blockchain
 
 ## Introduction
