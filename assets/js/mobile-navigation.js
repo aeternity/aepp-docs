@@ -1,18 +1,50 @@
 'use strict';
 (function ($) {
-	var menuIcon = $('#menu')
-	var closeIcon = $('#close')
-	var sidebar = $('#sidebar')
 
-	menuIcon.on('click', function () {
-		sidebar.addClass('opened')
-		menuIcon.hide()
-		closeIcon.show()
-	})
+	var menuRight = $('#cbp-spmenu-s2');
+	var openMenuButton = $('#open-menu');
+	var closeMenuButton = $('#close-menu');
+	var body = $('body');
 
-	closeIcon.on('click', function () {
-		sidebar.removeClass('opened')
-		menuIcon.show()
-		closeIcon.hide()
-	})
+	var openSearchMenuButton = $('#search-open');
+	var closeSearchMenuButton = $('#search-close');
+	var sidebar = $('#sidebar');
+	var mainContent = $('main.content');
+
+	openMenuButton.add(closeMenuButton).click(toggleMenu);
+	openSearchMenuButton.add(closeSearchMenuButton).click(function (e) {
+		e.stopPropagation();
+		toggleSearchMenu();
+	});
+
+
+	function toggleMenu() {
+		body.toggleClass('cbp-spmenu-push-toleft');
+		menuRight.toggleClass('cbp-spmenu-open');
+	}
+
+	function toggleSearchMenu() {
+		sidebar.toggleClass('open');
+
+		mainContent.css('min-height', 'initial');
+		if (sidebar.hasClass('open')) {
+			if (mainContent.height() < sidebar.height()) {
+				mainContent.css('min-height', sidebar.height() + 50);
+			}
+		}
+	}
+
+	$(document).click(function (e) {
+
+		if (sidebar.hasClass('open')) {
+			var target = $(e.target);
+			let parents = target.parents();
+
+			if (!target.is('#sidebar')
+				&& parents.indexOf(document.getElementById('sidebar')) < 0) {
+				sidebar.removeClass('open');
+			}
+		}
+	});
+
 })(Zepto)

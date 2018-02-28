@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
-  <body>
-    <div class="wrapper">
+  <body class="cbp-spmenu-push">
+      {% include header.html %}
+      {% include mobile-menu.html %}
+    <div class="wrapper container-custom">
+      <button class="search-menu-button" id="search-open"></button>
       {% include sidebar.html %}
       <main class="content">
         <div class="inner">
@@ -10,6 +13,7 @@
         </div>
       </main>
     </div>
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>

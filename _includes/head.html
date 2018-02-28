@@ -6,8 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
-  {% include styles.html %}
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300, 400,500,700" rel="stylesheet">
+  <link rel="icon" href="{{ " /assets/images/favicon.ico " | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}"> {% include styles.html %}
 </head>
