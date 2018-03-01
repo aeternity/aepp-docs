@@ -1,20 +1,20 @@
 [submodule "aepp-blockchain-explorer"]
 	path = aepp-blockchain-explorer
-	url = https://github.com/aeternity/aepp-blockchain-explorer.git
+	url = https://github.com/aeternity/aepp-blockchain-explorer
 	branch = master
 [submodule "aepp-components"]
 	path = aepp-components
-	url = https://github.com/aeternity/aepp-components.git
+	url = https://github.com/aeternity/aepp-components
 	branch = master
 [submodule "aepp-prototypes"]
 	path = aepp-prototypes
-	url = https://github.com/aeternity/aepp-prototypes.git
+	url = https://github.com/aeternity/aepp-prototypes
 	branch = master
 [submodule "aepp-sdk-js"]
 	path = aepp-sdk-js
-	url = https://github.com/aeternity/aepp-sdk-js.git
+	url = https://github.com/aeternity/aepp-sdk-js
 	branch = master
 [submodule "aepp-sdk-python"]
 	path = aepp-sdk-python
-	url = https://github.com/aeternity/aepp-sdk-python.git
+	url = https://github.com/aeternity/aepp-sdk-python
 	branch = master
