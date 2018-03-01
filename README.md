@@ -10,4 +10,4 @@ navigation: [NUMBER OF FILES + 1]
 ---
 ```
 
-The README.md files will be rendered at [dev.aepps.com](https://dev.aepps.com)
+The README.md files will be rendered at [dev.aepps.com](http://dev.aepps.com)
