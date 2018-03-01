@@ -84,7 +84,7 @@ If the TTL of the query+response would exceed the oracle's remaining TTL then th
 ### Governance
 To come
 
-###Contracts###
+### Contracts
 Contracts are programs which live on the blockchain and allow users to formalise arrangements between them. Virtual machines running on nodes execute the contracts, for which the nodes receive fees. A contract will run when it receives an event from the outside world, which could be
 
 - Payment from a user
