@@ -27,12 +27,12 @@ As an introduction to the usage of the SDKs, examples are provided in the `examp
 ## Major components
 
 ### Epoch
-Epoch is the reference Æternity implementation. It is a full node on the blockchain, able to mine blocks (see later), communicate with other peers, create and post transactions (MORE)
+Epoch is the reference Æternity implementation. It is a full node on the blockchain, able to mine blocks (see later), communicate with other peers, create and post transactions.
 
 ### Key Pairs
-Each account on the blockchain is represented by a private and public key pair. The public key is your  identity to the outside world. The private key you use to sign transactions, and must at all costs be kept secret. If your private key is discovered by someone else, they can use it to impersonate you and  take your tokens. You must keep your private key secret.
+Each account on the blockchain is represented by a private and public key pair. The public key is your identity to the outside world. The private key you use to sign transactions, and must at all costs be kept secret. If your private key is discovered by someone else, they can use it to impersonate you and take your tokens. You must keep your private key secret.
 
-If you have an Epoch node then you will have a public/private key generated for you. Wallet software will also do this. Each SDK also has a utility function to generate key pairs. TODO:(MAKE THIS TRUE).
+If you have an Epoch node then you will have a public/private key generated for you. Wallet software will also do this. Each SDK will shortly have a utility function to generate key pairs.
 
 ### Block generation
 As with all blockchains, Æternity's transactions are demarcated by block boundaries. This means that for every action you make, you must wait for the transaction to be written into a block before moving on and doing something else. We provide convenience methods which wait for a block generation event, and ensure that your transaction is now part of the permanent record. There still remains the possibility that the chain you have been working on will be orphaned, when the blockchain forks and the yours is the loser in an election.
