@@ -18,7 +18,3 @@
 	path = aepp-sdk-python
 	url = https://github.com/aeternity/aepp-sdk-python
 	branch = master
-[submodule "aepp-sdk-docs"]
-	path = aepp-sdk-docs
-	url = git@github.com:aeternity/aepp-sdk-docs
-	branch = master
