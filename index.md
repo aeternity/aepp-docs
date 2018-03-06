@@ -56,7 +56,7 @@ Block generation is a blockchain's heartbeat, and is the only way that on-block 
 Blocks contain proof that a certain set of transactions have been committed to the chain--this is why we wait for a block containing our transaction to be mined before moving on to the next. The process by which this occurs is called *mining* and is outside the scope of this document. For more information on mining please consult the Æternity specification.
 
 ### Naming Service
-The Æternity naming service related human-readable names to public keys for accounts and oracles. The naming system is designed for the zero-trust blockchain model, specifically in order to prevent malicious nodes from stealing names from clients connected to them. In order to prevent this, the model is:
+The Æternity naming service relates human-readable names to public keys for accounts and oracles. The naming system is designed for the zero-trust blockchain model, specifically in order to prevent malicious nodes from stealing names from clients. In order to prevent this, the model is:
 
 - A client which wants a name makes a hash of that name, along with a secret number, called the *salt*.
 - The client uses this hash to *pre-claim* the name. At this point, no-one else can see what the name is, but the client can prove that they made the pre-claim.
@@ -85,8 +85,8 @@ Clients can interact with an oracle by their public key, or by name using the AE
 
 If the TTL of the query+response would exceed the oracle's remaining TTL then the query will not be sent.
 
-###Contracts###
-Contracts are programs which live on the blockchain and allow users to formalise arrangements between them. Virtual machines running on nodes execute the contracts, for which the nodes receive fees. A contract will run when it receives an event from the outside world, which could be payment from a user, or some event from the outside world, delivered via an oracle.
+### Contracts
+Contracts are programs which live on the blockchain and allow users to formalise agreements between each other. Virtual machines running on nodes execute the contracts, for which the nodes receive fees. A contract will run when it receives an event from the outside world, which could be payment from a user, or some event from the outside world, delivered via an oracle.
 
 The Æternity blockchain supports three different virtual machines, which contracts run on:
 
