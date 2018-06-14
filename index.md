@@ -20,7 +20,10 @@ The SDKs interface to Epoch may be either request/response or connection-oriente
 This document is intended for people using the SDKs we provide. It does not go into detail about what is going on under the hood, rather concentrating on concepts instead. Details and code examples for the different languages are in the SDKs themselves, and Epoch is documented in [the Epoch repository](https://github.com/aeternity/epoch).
 
 ## Getting started
-If you wish to track the bleeding edge of æternity development, the best thing to do is to clone the [github repository](https://github.com/aeternity/epoch) and follow the [Getting started guide](https://github.com/aeternity/aepp-sdk-python/blob/master/INSTALL.md). Things may stop working, and from time to time the SDKs will be out of sync with maters, so, every 2 weeks we versions of Epoch and the development tools, synced to each other and relatively stable. Releases of are available [here](https://github.com/aeternity/epoch/releases). Unless you really need the newest features we would generally recommend getting the latest release.
+The best and easiest way to get up and running is to use a Docker image of the latest released version of Epoch. You can find a list of released versions [here](https://github.com/aeternity/epoch/releases). The instructions for downloading a Docker image should be much easier to find (we're working on this!) but are in the section entitled 'Install node'. They do not tend to change from release to release, so [here is a link to the latest](https://github.com/aeternity/epoch/blob/master/docs/docker.md).
+
+
+If you wish to track the bleeding edge of æternity development, clone the [github repository](https://github.com/aeternity/epoch) and follow the [Getting started guide](https://github.com/aeternity/aepp-sdk-python/blob/master/INSTALL.md). Things may stop working, and from time to time the SDKs will be out of sync with masters, so unless you really need the newest features we would generally recommend getting the latest release.
 
 As an introduction to the usage of the SDKs, examples are provided in the `examples/` directories of each SDK. The contents vary but in general we have tried to show the basic usage of each major feature of the blockchain. 
 
