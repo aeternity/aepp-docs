@@ -387,11 +387,14 @@ main.content {
 	-o-transition:all 0.2s ease-in-out;
 }
 
-.btn:hover, .btn:active, .btn:focus {
+.btn:link, .btn:visited, .btn:focus, .btn:hover, .btn:active {
 	background-color:var(--hl-color);
+	color:#ffffff;
+}
+
+.btn:focus, .btn:hover, .btn:active {
 	top:-2px;
 	left:-1px;
-	color:#ffffff;
 	box-shadow:0 4px 8px 0 rgba(60,60,60,0.1);
 	-webkit-box-shadow:0 4px 8px 0 rgba(60,60,60,0.1);
 	-moz-box-shadow:0 4px 8px 0 rgba(60,60,60,0.1);
