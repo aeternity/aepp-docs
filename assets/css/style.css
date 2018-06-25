@@ -393,6 +393,7 @@ main.content {
 }
 
 .btn:focus, .btn:hover, .btn:active {
+	font-weight:500;
 	top:-2px;
 	left:-1px;
 	box-shadow:0 4px 8px 0 rgba(60,60,60,0.1);
