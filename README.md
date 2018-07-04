@@ -1,13 +1,19 @@
 aepps.com documentation repository
 
-For README.md files to be automatically indexed, please add the following at the very top of the file.
+For .md files to be automatically linked in the sidebar, please add the following properties to `_data/nav.yaml`.
 
 ```
----
-layout: page
-title: [TITLE FOR SIDEBAR]
-navigation: [NUMBER OF FILES + 1]
----
+- section: Introduction
+  subpages:
+    - page:
+        label: Home
+        link: /
+    - page:
+        label: Installation
+        link: /aepp-sdk-docs/Installation.md
+
+- section: Installation
+  […]
 ```
 
-The README.md files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
+The .md files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
