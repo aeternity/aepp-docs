@@ -9,9 +9,9 @@
 
 - section: about æternity
   subpages:
-#    - page:
-#        label: Docker install
-#        link: /epoch/docs/docker.md
+    - page:
+        label: Docker install
+        link: /epoch/docs/docker.md
     - page:
         label: Oracles
         link: /aepp-sdk-docs/Oracles.md
