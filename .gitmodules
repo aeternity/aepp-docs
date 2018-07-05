@@ -1,0 +1,15 @@
+[submodule "aepp-blockchain-explorer"]
+	path = aepp-blockchain-explorer
+	url = https://github.com/andi-apeunit/aepp-blockchain-explorer
+[submodule "aepp-components"]
+	path = aepp-components
+	url = https://github.com/andi-apeunit/aepp-components
+[submodule "aepp-prototypes"]
+	path = aepp-prototypes
+	url = https://github.com/andi-apeunit/aepp-prototypes
+[submodule "aepp-sdk-js"]
+	path = aepp-sdk-js
+	url = https://github.com/andi-apeunit/aepp-sdk-js
+[submodule "aepp-sdk-python"]
+	path = aepp-sdk-python
+	url = https://github.com/andi-apeunit/aepp-sdk-python
