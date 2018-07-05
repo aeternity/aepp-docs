@@ -7,6 +7,9 @@
 [submodule "aepp-prototypes"]
 	path = aepp-prototypes
 	url = https://github.com/andi-apeunit/aepp-prototypes
+[submodule "aepp-sdk-docs"]
+	path = aepp-sdk-docs
+	url = https://github.com/andi-apeunit/aepp-sdk-docs
 [submodule "aepp-sdk-js"]
 	path = aepp-sdk-js
 	url = https://github.com/andi-apeunit/aepp-sdk-js
