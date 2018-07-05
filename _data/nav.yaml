@@ -3,9 +3,9 @@
     - page:
         label: Home
         link: /
-    - page:
-        label: Installation
-        link: /aepp-sdk-docs/Installation.md
+#    - page:
+#        label: Installation
+#        link: /aepp-sdk-docs/Installation.md
 
 - section: about æternity
   subpages:
