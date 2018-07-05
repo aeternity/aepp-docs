@@ -24,12 +24,12 @@
 
 - section: Javascript SDK
   subpages:
-    - page:
-        link: /aepp-sdk-js/README.md
-        label: Something
-    - page:
-        label: Something
-        link: /aepp-sdk-js/JS.md
+#    - page:
+#        link: /aepp-sdk-js/README.md
+#       label: Something
+#    - page:
+#        label: Something
+#        link: /aepp-sdk-js/JS.md
     - page:
         label: JS Examples
         link: /aepp-sdk-docs/JS-Examples.md
