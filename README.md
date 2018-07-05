@@ -10,7 +10,7 @@ For `.md` files to be automatically linked in the sidebar, please use the follow
         link: /
     - page:
         label: Installation
-        link: /aepp-docs/aepp-sdk-docs/Installation.md
+        link: /aepp-docs/aepp-sdk-docs/Installation.html
 
 - section: […]
   subpages:
