@@ -39,15 +39,15 @@
     - page:
         label: Installation guide
         link: /aepp-sdk-python/README.md
-    - page:
-        label: Programming guide
-        link: https://something.something/something
-    - page:
-        label: Annotated examples
-        link: https://something.something/something
-    - page:
-        label: API Documentation
-        link: https://something.something/something
+#    - page:
+#        label: Programming guide
+#        link: https://something.something/something
+#    - page:
+#        label: Annotated examples
+#        link: https://something.something/something
+#    - page:
+#        label: API Documentation
+#        link: https://something.something/something
 
 - section: Online tools
   subpages:
@@ -56,7 +56,7 @@
         link: https://contracts.aepps.com
     - page:
         label: Blockchain explorer
-        link: https://explorer.aepps.com/
+        link: https://explorer.aepps.com
 
 - section: Components
   subpages:
