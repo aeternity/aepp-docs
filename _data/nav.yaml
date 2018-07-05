@@ -20,7 +20,7 @@
         link: /aepp-docs/aepp-sdk-docs/AENS-Python.html
     - page:
         label: Sophia tutorial
-        link: /aepp-docs/aepp-sdk-docs/Sofia.html
+        link: /aepp-docs/aepp-sdk-docs/Sophia.html
 
 - section: Javascript SDK
   subpages:
