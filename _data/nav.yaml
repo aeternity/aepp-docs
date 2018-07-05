@@ -2,7 +2,7 @@
   subpages:
     - page:
         label: Home
-        link: /
+        link: /aepp-docs
 #    - page:
 #        label: Installation
 #        link: /aepp-docs/aepp-sdk-docs/Installation.html
