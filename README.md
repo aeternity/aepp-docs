@@ -1,6 +1,6 @@
 aepps.com developer documentation
 
-For .md files to be automatically linked in the sidebar, please add the following properties to `_data/nav.yaml`.
+For `.md` files to be automatically linked in the sidebar, please add the following properties to `_data/nav.yaml`.
 
 ```
 - section: Introduction
@@ -10,7 +10,7 @@ For .md files to be automatically linked in the sidebar, please add the followin
         link: /
     - page:
         label: Installation
-        link: /aepp-sdk-docs/Installation.md
+        link: /aepp-sdk-docs/Installation.html
 
 - section: […]
   subpages:
@@ -24,4 +24,4 @@ For .md files to be automatically linked in the sidebar, please add the followin
 […]
 ```
 
-The .md files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
+The `.md` files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
