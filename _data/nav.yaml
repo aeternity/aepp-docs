@@ -5,40 +5,40 @@
         link: /
 #    - page:
 #        label: Installation
-#        link: /aepp-sdk-docs/Installation.html
+#        link: /aepp-docs/aepp-sdk-docs/Installation.md
 
 - section: about æternity
   subpages:
 #    - page:
 #        label: Docker install
-#        link: /epoch/docs/docker.html
+#        link: /aepp-docs/epoch/docs/docker.md
     - page:
         label: Oracles
-        link: /aepp-sdk-docs/Oracles.html
+        link: /aepp-docs/aepp-sdk-docs/Oracles.md
     - page:
         label: Naming system
-        link: /aepp-sdk-docs/AENS-Python.html
+        link: /aepp-docs/aepp-sdk-docs/AENS-Python.md
     - page:
         label: Sophia tutorial
-        link: /aepp-sdk-docs/Sofia.html
+        link: /aepp-docs/aepp-sdk-docs/Sofia.md
 
 - section: Javascript SDK
   subpages:
 #    - page:
-#        link: /aepp-sdk-js/README.html
+#        link: /aepp-docs/aepp-sdk-js/README.md
 #       label: Something
 #    - page:
 #        label: Something
-#        link: /aepp-sdk-js/JS.html
+#        link: /aepp-docs/aepp-sdk-js/JS.md
     - page:
         label: JS Examples
-        link: /aepp-sdk-docs/JS-Examples.html
+        link: /aepp-docs/aepp-sdk-docs/JS-Examples.md
 
 - section: Python SDK
   subpages:
     - page:
         label: Installation guide
-        link: /aepp-sdk-python/README.html
+        link: /aepp-docs/aepp-sdk-python/README.md
 #    - page:
 #        label: Programming guide
 #        link: https://something.something/something
@@ -62,7 +62,7 @@
   subpages:
     - page:
         label: æpp components
-        link: /aepp-components/README.html
+        link: /aepp-docs/aepp-components/README.md
     - page:
         label: Blockchain explorer
-        link: /aepp-blockchain-explorer/README.html
+        link: /aepp-docs/aepp-blockchain-explorer/README.md
