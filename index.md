@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Introduction
-navigation: 1
 ---
 
 # Developing æpps for the æternity blockchain
