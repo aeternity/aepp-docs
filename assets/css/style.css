@@ -297,9 +297,6 @@ p {
     -webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
-	transition: transform 0.4s ease-in-out;
-	-webkit-transition: transform 0.4s ease-in-out;
-	-moz-transition: transform 0.4s ease-in-out;
 }
 
 .navigation > li > a.current::after{
@@ -778,7 +775,7 @@ footer .links ul li img {
 	.cbp-spmenu{
 		padding: 10px 0px;
 	}
-	
+
 	.cbp-spmenu ul{
 		margin-top: 30px;
 	}

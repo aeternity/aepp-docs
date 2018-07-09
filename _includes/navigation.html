@@ -4,26 +4,24 @@
 
     {% assign parentloopindex = forloop.index%}
 
-      {% if parentloopindex == 1 %}
-        <li class="open">
-            <a class="current parent">{{ sec.section }}</a>
-      {% else %}
-        <li>
+        <li data-id="{{parentloopindex}}">
             <a class="parent">{{ sec.section }}</a>
-      {% endif %}
 
-      {% if sec.subpages[0] %}
-      <ul class="navigation-inner">
-        {% for sp in sec.subpages %}
-        {% assign childloopindex = forloop.index%}
-        <li>
-            <a class="{% if page.url == sp.page.link %}active{% endif %}" href="{{ sp.page.link }}">{{ sp.page.label }}</a>
+          {% if sec.subpages[0] %}
+          <ul class="navigation-inner">
+            {% for sp in sec.subpages %}
+
+            <li>
+                <a
+                  {% if  page.url == sp.page.link %}class="active"{% endif %}
+                  href="{{ sp.page.link }}"
+                  {% if sp.page.external==true %}target="_blank"{% endif %}>{{ sp.page.label }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
         </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-    </li>
     {% endfor %}
 </ul>
 {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
