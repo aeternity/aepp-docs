@@ -12,10 +12,7 @@
             {% for sp in sec.subpages %}
 
             <li>
-                <a
-                  {% if  page.url == sp.page.link %}class="active"{% endif %}
-                  href="{{ sp.page.link }}"
-                  {% if sp.page.external==true %}target="_blank"{% endif %}>{{ sp.page.label }}</a>
+                <a {% if  page.url == sp.page.link %}class="active"{% endif %} href="{{ sp.page.link }}" {% if sp.page.external==true %}target="_blank"{% endif %}>{{ sp.page.label }}</a>
             </li>
             {% endfor %}
           </ul>
