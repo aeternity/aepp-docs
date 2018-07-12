@@ -1,13 +1,15 @@
 - section: Introduction
-  subpages:
-    - page:
-        label: Home
-        link: /aepp-docs
+  link: /aepp-docs
+#- section: Introduction
+#  subpages:
+#    - page:
+#        label: Home
+#        link: /aepp-docs
 #    - page:
 #        label: Installation
 #        link: /aepp-docs/aepp-sdk-docs/Installation.html
 
-- section: about æternity
+- section: About æternity
   subpages:
 #    - page:
 #        label: Docker install
@@ -16,13 +18,13 @@
         label: Oracles
         link: /aepp-docs/aepp-sdk-docs/Oracles.html
     - page:
-        label: Naming system
+        label: AENS Naming System
         link: /aepp-docs/aepp-sdk-docs/AENS-Python.html
     - page:
-        label: Sophia tutorial
+        label: Sophia Tutorial
         link: /aepp-docs/aepp-sdk-docs/Sophia.html
 
-- section: Javascript SDK
+- section: JavaScript SDK
   subpages:
 #    - page:
 #        link: /aepp-docs/aepp-sdk-js/README.html
@@ -31,19 +33,19 @@
 #        label: Something
 #        link: /aepp-docs/aepp-sdk-js/JS.html
     - page:
-        label: JS Examples
+        label: Examples
         link: /aepp-docs/aepp-sdk-docs/JS-Examples.html
 
 - section: Python SDK
   subpages:
     - page:
-        label: Installation guide
+        label: Installation Guide
         link: /aepp-docs/aepp-sdk-python/README.html
 #    - page:
-#        label: Programming guide
+#        label: Programming Guide
 #        link: https://something.something/something
 #    - page:
-#        label: Annotated examples
+#        label: Annotated Examples
 #        link: https://something.something/something
 #    - page:
 #        label: API Documentation
@@ -52,11 +54,11 @@
 - section: Online tools
   subpages:
     - page:
-        label: Contract editor
+        label: Contract Editor
         link: https://contracts.aepps.com
         external: true
     - page:
-        label: Blockchain explorer
+        label: Blockchain Explorer
         link: https://explorer.aepps.com
         external: true
 
@@ -66,5 +68,8 @@
         label: æpp components
         link: /aepp-docs/aepp-components/README.html
     - page:
-        label: Blockchain explorer
+        label: Blockchain Explorer
         link: /aepp-docs/aepp-blockchain-explorer/README.html
+
+- section: Glossary
+  link: /aepp-docs/aepp-sdk-docs/Glossary.html
