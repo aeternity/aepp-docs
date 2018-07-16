@@ -1,18 +1,18 @@
 [submodule "aepp-blockchain-explorer"]
 	path = aepp-blockchain-explorer
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-blockchain-explorer
+	url = https://andi-apeunit@github.com/aeternity/aepp-blockchain-explorer
 [submodule "aepp-components"]
 	path = aepp-components
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-components
+	url = https://andi-apeunit@github.com/aeternity/aepp-components
 [submodule "aepp-prototypes"]
 	path = aepp-prototypes
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-prototypes
+	url = https://andi-apeunit@github.com/aeternity/aepp-prototypes
 [submodule "aepp-sdk-docs"]
 	path = aepp-sdk-docs
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-sdk-docs
+	url = https://andi-apeunit@github.com/aeternity/aepp-sdk-docs
 [submodule "aepp-sdk-js"]
 	path = aepp-sdk-js
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-sdk-js
+	url = https://andi-apeunit@github.com/aeternity/aepp-sdk-js
 [submodule "aepp-sdk-python"]
 	path = aepp-sdk-python
-	url = https://andi-apeunit@github.com/andi-apeunit/aepp-sdk-python
+	url = https://andi-apeunit@github.com/aeternity/aepp-sdk-python
