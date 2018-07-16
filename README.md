@@ -1,6 +1,5 @@
 aepps.com developer documentation
 
-<<<<<<< HEAD
 For `.md` files to be automatically linked in the sidebar, please use the following method being configured in `_data/nav.yaml`.
 
 ```
@@ -38,16 +37,3 @@ For `.md` files to be automatically linked in the sidebar, please use the follow
 ```
 
 The `.md` files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
-=======
-For README.md files to be automatically indexed, please add the following at the very top of the file.
-
-```
----
-layout: page
-title: [TITLE FOR SIDEBAR]
-navigation: [NUMBER OF FILES + 1]
----
-```
-
-The README.md files will be rendered at [https://dev.aepps.com](https://dev.aepps.com)
->>>>>>> eb729b74ed45c402a061190a8f3ba147bad10be1
