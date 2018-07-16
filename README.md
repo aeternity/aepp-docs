@@ -3,15 +3,27 @@ aepps.com developer documentation
 For `.md` files to be automatically linked in the sidebar, please use the following method being configured in `_data/nav.yaml`.
 
 ```
+# single page link
 - section: Introduction
+  link: /
+
+# section with subpages, external links
+- section: Online tools
   subpages:
     - page:
-        label: Home
-        link: /
+        label: Contract Editor
+        link: https://contracts.aepps.com
+        external: true
     - page:
-        label: Installation
-        link: /aepp-docs/aepp-sdk-docs/Installation.html
+        label: Blockchain Explorer
+        link: https://explorer.aepps.com
+        external: true
 
+# single page link
+- section: […]
+  link: […]
+
+# section with subpages
 - section: […]
   subpages:
     - page:
