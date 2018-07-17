@@ -1,10 +1,18 @@
 - section: Introduction
+<<<<<<< Updated upstream
   link: /aepp-docs
+=======
+  link: /
+>>>>>>> Stashed changes
 #- section: Introduction
 #  subpages:
 #    - page:
 #        label: Home
+<<<<<<< Updated upstream
 #        link: /aepp-docs
+=======
+#        link: /
+>>>>>>> Stashed changes
 #    - page:
 #        label: Installation
 #        link: /aepp-docs/aepp-sdk-docs/Installation.html
