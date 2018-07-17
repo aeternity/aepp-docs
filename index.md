@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Introduction
-navigation: 1
 ---
 
 # Developing æpps for the æternity blockchain
@@ -105,4 +104,3 @@ The three are designed to support different use cases, with the ethereum VM exis
 Contracts must be compiled before they are uploaded to the blockchain. Epoch will compile contracts, but they can be compiled in other ways too. The compiled bytecode is stored on the chain and executed by the nodes. This execution uses CPU power on the nodes, and so it is paid for, using *gas*. A contract which has run out of gas will no longer be executed. The FLM VM is simple enough that the gas price for a contract can be accurately estimated at compile time; for the other VMs the developer is responsible for working out their own gas budget.
 
 A discussion of the concepts is [here](https://ethereum.stackexchange.com/questions/3/what-is-meant-by-the-term-gas).
-

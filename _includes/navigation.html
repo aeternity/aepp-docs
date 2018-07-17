@@ -1,14 +1,34 @@
 {% capture html %}
 <ul class="navigation" id="navigation">
-  {% assign entries = site.pages | sort: "navigation" %}
-  {% for entry in entries %}
-    {% if entry.navigation %}
-      <li>
-        <a class="{% if page.url == entry.url entry.url %}active{% endif %}" href="{{ entry.url | relative_url }}">
-          {{ entry.title }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
+  {% for sec in site.data.nav %}
+
+    {% assign parentloopindex = forloop.index%}
+
+        <li data-id="{{parentloopindex}}">
+            <a
+			{% if sec.subpages[0] %}class="parent"{% endif %}
+			{% if page.url == sec.link %}class="active"{% endif %}
+			{% if sec.link %}href="{{ sec.link }}"{% endif %}
+			{% if sec.external==true %}target="_blank"{% endif %}>
+				{{ sec.section }}
+			</a>
+
+          {% if sec.subpages[0] %}
+          <ul class="navigation-inner">
+            {% for sp in sec.subpages %}
+            <li>
+                <a
+            	{% if  page.url == sp.page.link %}class="active"{% endif %}
+                href="{{ sp.page.link }}"
+                {% if sp.page.external==true %}target="_blank"{% endif %}>
+					{{ sp.page.label }}
+				</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+        </li>
+    {% endfor %}
 </ul>
 {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
