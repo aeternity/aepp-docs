@@ -1,46 +1,46 @@
 - section: Introduction
-  link: /aepp-docs
+  link: 
 #- section: Introduction
 #  subpages:
 #    - page:
 #        label: Home
-#        link: /aepp-docs
+#        link: 
 #    - page:
 #        label: Installation
-#        link: /aepp-docs/aepp-sdk-docs/Installation.html
+#        link: /aepp-sdk-docs/Installation.html
 
 - section: About æternity
   subpages:
 #    - page:
 #        label: Docker Install
-#        link: /aepp-docs/epoch/docs/docker.html
+#        link: /epoch/docs/docker.html
     - page:
         label: Oracles
-        link: /aepp-docs/aepp-sdk-docs/Oracles.html
+        link: /aepp-sdk-docs/Oracles.html
     - page:
         label: AENS Naming System
-        link: /aepp-docs/aepp-sdk-docs/AENS-Python.html
+        link: /aepp-sdk-docs/AENS-Python.html
     - page:
         label: Sophia Tutorial
-        link: /aepp-docs/aepp-sdk-docs/Sophia.html
+        link: /aepp-sdk-docs/Sophia.html
 
 - section: JavaScript SDK
   subpages:
 #    - page:
-#        link: /aepp-docs/aepp-sdk-js/README.html
+#        link: /aepp-sdk-js/README.html
 #       label: Something
 #    - page:
 #        label: Something
-#        link: /aepp-docs/aepp-sdk-js/JS.html
+#        link: /aepp-sdk-js/JS.html
     - page:
         label: Examples
-        link: /aepp-docs/aepp-sdk-docs/JS-Examples.html
+        link: /aepp-sdk-docs/JS-Examples.html
 
 - section: Python SDK
   subpages:
     - page:
         label: Installation Guide
-        link: /aepp-docs/aepp-sdk-python/README.html
+        link: /aepp-sdk-python/README.html
 #    - page:
 #        label: Programming Guide
 #        link: https://something.something/something
@@ -66,10 +66,10 @@
   subpages:
     - page:
         label: æpp Components
-        link: /aepp-docs/aepp-components/README.html
+        link: /aepp-components/README.html
     - page:
         label: Blockchain Explorer
-        link: /aepp-docs/aepp-blockchain-explorer/README.html
+        link: /aepp-blockchain-explorer/README.html
 
 - section: Glossary
-  link: /aepp-docs/aepp-sdk-docs/Glossary.html
+  link: /aepp-sdk-docs/Glossary.html
