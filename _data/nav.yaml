@@ -12,7 +12,7 @@
 - section: About æternity
   subpages:
 #    - page:
-#        label: Docker install
+#        label: Docker Install
 #        link: /epoch/docs/docker.html
     - page:
         label: Oracles
@@ -51,7 +51,7 @@
 #        label: API Documentation
 #        link: https://something.something/something
 
-- section: Online tools
+- section: Online Tools
   subpages:
     - page:
         label: Contract Editor
@@ -65,7 +65,7 @@
 - section: Components
   subpages:
     - page:
-        label: æpp components
+        label: æpp Components
         link: /aepp-components/README.html
     - page:
         label: Blockchain Explorer
