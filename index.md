@@ -20,7 +20,7 @@ The SDKs interface to Epoch may be either request/response or connection-oriente
 This document is intended for people using the SDKs we provide. It does not go into detail about what is going on under the hood, rather concentrating on concepts instead. Details and code examples for the different languages are in the SDKs themselves, and Epoch is documented in [the Epoch repository](https://github.com/aeternity/epoch).
 
 ## Getting started
-Our releases trail those of the main æternity epoch releases. As soon as we have a stable SDK for the latest Epoch, we release it, and update our test chain, which is always available as `http://sdk-testnet.aepps.com`. 
+Our releases trail those of the main æternity epoch releases. As soon as we have a stable SDK for the latest Epoch, we release it, and update our test chain, which is always available at `http://sdk-testnet.aepps.com`. 
 
 If you want to run your own node and connect to the main testnet, the best and easiest way to get up and running is to use a Docker image of the latest released version of Epoch. You can find a list of released versions [here](https://github.com/aeternity/epoch/releases). The instructions for downloading a Docker image should be much easier to find (we're working on this!) but are in the section entitled 'Install node'. They do not tend to change from release to release, so [here is a link to the latest](https://github.com/aeternity/epoch/blob/master/docs/docker.md). However around the first few days after an Epoch release, the SDKs may not fully support this version.
 
