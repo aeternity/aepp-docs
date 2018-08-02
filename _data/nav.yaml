@@ -25,6 +25,7 @@
         link: /aepp-sdk-docs/Sophia.html
 
 - section: JavaScript SDK
+  link: /aepp-sdk-js/docs/usage.html
   subpages:
 #    - page:
 #        link: /aepp-sdk-js/README.html
