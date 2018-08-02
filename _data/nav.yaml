@@ -38,10 +38,11 @@
         link: /aepp-sdk-docs/JS-Examples.html
 
 - section: Python SDK
+  link: /aepp-sdk-python/README.html
   subpages:
     - page:
-        label: Installation Guide
-        link: /aepp-sdk-python/README.html
+        label: Examples
+        link: /aepp-sdk-python/examples/index.html
 #    - page:
 #        label: Programming Guide
 #        link: https://something.something/something
