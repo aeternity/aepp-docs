@@ -57,7 +57,7 @@
   subpages:
     - page:
         label: Contract Editor
-        link: https://contracts.aepps.com
+        link: http://contracts.aepps.com
         external: true
     - page:
         label: Blockchain Explorer
