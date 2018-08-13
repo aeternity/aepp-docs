@@ -59,12 +59,16 @@
 - section: Online Tools
   subpages:
     - page:
+        label: Blockchain Explorer
+        link: https://explorer.aepps.com
+        external: true
+    - page:
         label: Contract Editor
         link: http://contracts.aepps.com
         external: true
     - page:
-        label: Blockchain Explorer
-        link: https://explorer.aepps.com
+        label: Token Faucet
+        link: https://faucet.aepps.com/
         external: true
 
 - section: Components
