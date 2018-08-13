@@ -40,7 +40,8 @@
 - section: Python SDK
   link: /aepp-sdk-python/README.html
   subpages:
-    - page: Command line tool
+    - page: 
+      label: Command line tool
       link: /aepp-sdk-python/command-line-tool.html
     - page:
         label: Examples
