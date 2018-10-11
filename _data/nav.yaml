@@ -71,7 +71,7 @@
         link: https://faucet.aepps.com/
         external: true
         
- - section: Online Tools (edgenet)
+- section: Online Tools (edgenet)
   subpages:
     - page:
         label: Token Faucet
