@@ -56,7 +56,7 @@
 #        label: API Documentation
 #        link: https://something.something/something
 
-- section: Online Tools
+- section: Online Tools (testnet)
   subpages:
     - page:
         label: Blockchain Explorer
@@ -69,6 +69,13 @@
     - page:
         label: Token Faucet
         link: https://faucet.aepps.com/
+        external: true
+        
+ - section: Online Tools (edgenet)
+  subpages:
+    - page:
+        label: Token Faucet
+        link: https://edge-faucet.aepps.com/
         external: true
 
 - section: Components
