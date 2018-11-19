@@ -11,9 +11,9 @@
 
 - section: About æternity
   subpages:
-#    - page:
-#        label: Docker Install
-#        link: /epoch/docs/docker.html
+    - page:
+        label: Our networks
+        link: /aepp-sdk-docs/networks.html
     - page:
         label: Oracles
         link: /aepp-sdk-docs/Oracles.html
