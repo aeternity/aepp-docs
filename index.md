@@ -3,7 +3,7 @@ layout: page
 title: Introduction
 ---
 
-# Developing æpps for the æternity blockchain
+# developing æpps for the æternity blockchain
 
 
 ## Introduction
