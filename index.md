@@ -7,7 +7,7 @@ title: Introduction
 
 
 ## Introduction
-æternity is a modern blockchain which contains many features, such as naming, oracles, contracts and governance, as first-class members of its universe. æternity is open-source, with built in governance allowing its community to direct the growth and development of the blockchain.
+æternity is a modern blockchain which contains many features, such as naming, oracles, contracts and governance, as first-class members of its universe. æternity is open-source, with built in governance allowing its community to direct the growth and development of the blockchain. 
 
 Apps built for the æternity blockchain are called æpps.
 
