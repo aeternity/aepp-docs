@@ -16,3 +16,6 @@
 [submodule "aepp-sdk-python"]
 	path = aepp-sdk-python
 	url = https://andi-apeunit@github.com/aeternity/aepp-sdk-python
+[submodule "tutorials"]
+	path = tutorials
+	url = https://andi-apeunit@github.com/aeternity/tutorials
