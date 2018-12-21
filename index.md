@@ -11,7 +11,7 @@ title: Introduction
 
 Apps built for the æternity blockchain are called æpps.
 
-The reference implementation ofæternity, [Epoch](https://github.com/aeternity/epoch) is implemented in the [Erlang](https://www.erlang.org/) programming language. SDKs written in Javascript and Python provide interfaces to Epoch. Those wishing to implement their own nodes will want to start by checking out [the protocol](https://github.com/aeternity/protocol) guide and the [Epoch code](https://github.com/aeternity/epoch). For everyone else, there is directly speaking to Epoch, and the SDKs.
+The reference implementation of æternity, [Epoch](https://github.com/aeternity/epoch) is implemented in the [Erlang](https://www.erlang.org/) programming language. SDKs written in Javascript and Python provide interfaces to Epoch. Those wishing to implement their own nodes will want to start by checking out [the protocol](https://github.com/aeternity/protocol) guide and the [Epoch code](https://github.com/aeternity/epoch). For everyone else, there is directly speaking to Epoch, and the SDKs.
 
 Epoch's API is documented in the [Protocol repository](https://github.com/aeternity/protocol).
 
