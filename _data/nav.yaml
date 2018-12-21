@@ -87,5 +87,8 @@
         label: Blockchain Explorer
         link: /aepp-blockchain-explorer/README.html
 
+- section: Tutorials
+  link: /tutorials/README.html
+
 - section: Glossary
   link: /aepp-sdk-docs/Glossary.html
