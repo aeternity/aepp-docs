@@ -60,23 +60,17 @@
   subpages:
     - page:
         label: Blockchain Explorer
-        link: https://explorer.aepps.com
+        link: https://testnet.explorer.aepps.com
         external: true
     - page:
         label: Contract Editor
-        link: http://contracts.aepps.com
+        link: http://testnet.contracts.aepps.com
         external: true
     - page:
         label: Token Faucet
-        link: https://faucet.aepps.com/
+        link: https://testnet.faucet.aepps.com/
         external: true
         
-- section: Online Tools (edgenet)
-  subpages:
-    - page:
-        label: Token Faucet
-        link: https://edge-faucet.aepps.com/
-        external: true
 
 - section: Components
   subpages:
