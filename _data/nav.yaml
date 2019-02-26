@@ -1,4 +1,3 @@
-
 - section: Introduction
   link: /
 #- section: Introduction
@@ -24,21 +23,38 @@
     - page:
         label: Sophia Tutorial
         link: /aepp-sdk-docs/Sophia.html
-        
-- section: Developer Tools
+
+- section: JavaScript SDK
+  link: /aepp-sdk-js/docs/usage.html
   subpages:
+#    - page:
+#        link: /aepp-sdk-js/README.html
+#       label: Something
+#    - page:
+#        label: Something
+#        link: /aepp-sdk-js/JS.html
     - page:
-        label: æternity API & SDK's
-        subpages:
-          - page:
-              label: Go
-              link: aepp-sdk-go/README.html
-          - page:
-              label: JavaScript
-              link: aepp-sdk-js/blob/develop/README.html
-          - page:
-              label: Python
-              link: aepp-sdk-python/blob/develop/README.html
+        label: Examples
+        link: /aepp-sdk-docs/JS-Examples.html
+
+- section: Python SDK
+  link: /aepp-sdk-python/README.html
+  subpages:
+    - page: 
+        label: Command line tool
+        link: /aepp-sdk-python/command-line-tool.html
+    - page:
+        label: Examples
+        link: /aepp-sdk-python/examples/index.html
+#    - page:
+#        label: Programming Guide
+#        link: https://something.something/something
+#    - page:
+#        label: Annotated Examples
+#        link: https://something.something/something
+#    - page:
+#        label: API Documentation
+#        link: https://something.something/something
 
 - section: Online Tools (testnet)
   subpages:
@@ -70,4 +86,3 @@
 
 - section: Glossary
   link: /aepp-sdk-docs/Glossary.html
-
