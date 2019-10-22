@@ -7,7 +7,9 @@ title: Introduction
 
 ## ⚠️ Warning ⚠️
 
-### This is the legacy documentation portal, for the current version visit the [documentation hub](http://aeternity.com/documentation-hub/).
+### This is the legacy documentation portal, you will be automatically redirect to the [current version](http://aeternity.com/documentation-hub/), 
+
+if this doesn't happen, click [here](http://aeternity.com/documentation-hub/).
 
 ## Introduction
 
